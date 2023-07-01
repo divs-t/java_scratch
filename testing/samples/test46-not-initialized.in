@@ -1,0 +1,15 @@
+# Making sure other commands can't run if not in an initialized git directory
++ f.txt wug2.txt
++ g.txt wug.txt
+> add f.txt
+Not in an initialized gitlet directory.
+<<<
+> commit f.txt
+Not in an initialized gitlet directory.
+<<<
+> status
+Not in an initialized gitlet directory.
+<<<
+> log
+Not in an initialized gitlet directory.
+<<<

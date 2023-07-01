@@ -1,0 +1,21 @@
+# Testing non-existent commands and wrong operands for add, commit, init
+> setup2.inc
+Not in an initialized Gitlet directory.
+<<<
+> init
+<<<
+> init
+A Gitlet version-control system already exist in the current directory.
+<<<
+> file
+No command with that name exists.
+<<<
+> init f.txt
+Incorrect operands.
+<<<
+> commit
+Incorrect operands.
+<<<
+> add
+Incorrect operands.
+<<<

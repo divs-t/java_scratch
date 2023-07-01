@@ -1,0 +1,35 @@
+# Status after adding modified file
+I setup2.inc
+> status
+=== Branches ===
+\*master
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<*
++ f.txt notwug.txt
+> add f.txt
+<<<
+> commit "modified f.txt"
+<<<
++ h.txt wug2.txt
+> status
+=== Branches ===
+\*master
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+h.txt
+
+<<<*

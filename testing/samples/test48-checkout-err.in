@@ -1,0 +1,25 @@
+# A simple test of adding, committing, modifying, and checking out while testing errors.
+> init
+<<<
++ wug.txt wug.txt
+> add wug.txt
+<<<
+> commit "added wug"
+<<<
+> checkout nonbranch
+No such branch exists.
+<<<
+> checkout master
+No need to checkout the current branch.
+<<<
++ wug.txt notwug.txt
+# Must change
+> checkout -- wug.txt
+<<<
+= wug.txt wug.txt
+> checkout
+Incorrect operands.
+<<<
+> checkout more operands than needed for command
+Incorrect operands.
+<<<
